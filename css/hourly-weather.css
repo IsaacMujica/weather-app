@@ -1,0 +1,16 @@
+.hourlyWeather {
+	display: flex;
+	flex-wrap: wrap;
+}
+.hourlyWeather-section {
+	flex: 0 0 auto;
+	width: 50%;
+	margin-bottom: 1rem;
+}
+.hourlyWeather-section-text {
+	color: var(--white);
+}
+.hourlyWeather-section-text span {
+	font-weight: bolder;
+	margin-left: .5rem;
+}
